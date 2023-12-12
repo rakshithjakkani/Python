@@ -14,7 +14,7 @@ def check_jenkins_status():
     jenkins_url = '<Specify your URL>'
     global sns_topic_arn
     try:
-        response = requests.head(jenkins_url, timeout=20)  # Increase timeout if needed
+        response = requests.head(jenkins_url, auth() timeout=20)  # Increase timeout if needed
         if response.status_code == 200:
             print("Jenkins server is up!")
         else:
