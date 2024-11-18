@@ -1,0 +1,77 @@
+strings = "hello"
+* whatever you mention in between the "" it becomes the string like 
+    print("123" + "456") #this will print as a 123456. we call this cancatination
+
+    username = "rakshith"
+    print(username[3]) #this will retun s due to index functionalitiy we can also use -1 for h -2 for i like that
+
+integers = 1234
+* integers should be defained in the int function or indivisuall like below
+    print(123 + 456) #this will retune the addition of that 2 numbers
+
+floats = 15.0105
+* print(floats)
+
+booleans = True or false
+
+how to get a type of some data ?
+* you can use the type() function to get the data type of some data
+    print(type("1234")) #this will return string
+    print(type(123454)) #this will return int
+    print(type(3.14)) #this will retun floats
+    print(type(True)) #this will return booleans
+
+Data Manupulation
+* can concatinate only str to str but not str and int, in that case you can use as below
+    print("number of letters in your name: ", + len(input("what is your name: ")))
+
+    other method 
+
+    name = len(input("what is your name: "))
+    print(f"this is the length of your name: {name}") #we call this f string
+
+    another method
+
+    name = len(input("what is your name: "))
+    print(f"this is the length of your name " + str(name))
+
+Mathematical operators in python
+
+print("my age is " + str("24")) #this will print my age is 24
+
+--> addition
+print(15 + 15)
+
+--> subraction
+print(15 - 30)
+
+--> multiplication
+print(3 * 5)
+
+-->division
+print(30 / 2) #this will print as 15.0
+print(30 // 2)#this will print as 15
+print(5 // 2) #this will print as 1 // in python removes the value after the . like 1.2 will return as 1
+
+-->exponensial
+print(3 ** 4) 3 to the power of 4
+
+PEMDAS L-R
+p = (), E = exponensial, multiplication, division, addition, subraction (python priority)
+ 
+* for example, if you say print(3 + 3 / 3 - 3 * 3)
+    first python exucutes (), 3 * 3 = 9, 3 / 3 = 1, 3 + 3 = 6, 4 - 9 = -5
+
+Number Manupulation
+* lets say your counting score in cricket
+    present_score = 1 
+
+    this_over_total_score = int(input("enter the score"))
+
+    present_score += this_over_total_score
+    print(total_score)
+
+    * present_score += 9 # 9 will be added to existing value 
+    * present_score *= 2 
+    * present_score -= 3
+    * present_score /= 4
