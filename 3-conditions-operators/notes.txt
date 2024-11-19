@@ -1,0 +1,25 @@
+Conditional statements:
+==>if and else
+* Conditional statements are used to control the overflow of things
+* This is important thigs in the python. By using this conditions, you'll be defaining things like
+    --> if this happens, execute this blog of code, if not execute else block of code like
+
+--> syntax
+if condition:
+    statements
+else:
+    statements
+
+operators:
+a % b --> modulo operator
+    * this operator is used like a divide by b 
+    * for example 10 % 5 remainder is 0, 10 % 3 remainder is 1
+    * any number that is devisable by 2 is even, which is not divisable by 2 is even
+    * 10 % 2 --> even, 33 % 2 --> odd
+a > b --> greater than
+a < b --> less than
+a >= b --> greater than or equal to
+a <= b --> less than or equal to 
+a == b --> equal
+a != b --> not equal
+
