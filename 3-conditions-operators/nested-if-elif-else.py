@@ -5,7 +5,9 @@ bill = 0
 if height >= 120:
     print("you can ride a rollercoaster")
     age = int(input("what is your age ?: "))
-    if age < 12:
+    if age >= 45 and age <= 55:
+        print("Everything is gonna be okay. Have a free ride on us!")
+    elif age < 12:
         bill = 7
     elif age >= 12 and age < 18:
         bill = 12
