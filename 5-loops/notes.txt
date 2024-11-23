@@ -1,0 +1,43 @@
+For loop:
+========
+
+for item in list_of_items
+    # do something to each item
+
+# Try below example
+fruits = ["apple", "banana", "tomato"]
+for fruit in fruits:
+    print(fruit)
+    # this loop is executed each time for each fruit in list of fruits
+    # when for loop started executed, it will assign a variable for apple like fruit = "apple", next fruit = "banana" and so on
+    # This loop is used when you need to execute some part of the code or whole part of the code  multiple times
+
+# printing the sum of total number using for loops and sum function
+numbers = [9, 4, 5, 7, 4, 4 8,098,5, 938,376, 23, 65, 099]
+print(sum(numbers)) # generally this will print the total number but for a change we will build our own sum function using for loop
+
+## building max function using for loop
+numbers = [9, 4, 5, 7, 4, 4, 8, 98, 5, 938, 376, 23, 65, 99]
+max = 0
+for a in numbers:
+    if a > max:
+        max = a
+    # in the first execution a = 9 and it will check if a > 0 then it will become max = a (max = 9)
+    # for next execution a = 4 and it will check if a > 9 then skip execution if block.
+    # in serveral next executions  98 = 9 and it will check if a > 9 then it will become max = a (max = 98)
+    # so on it will execute all the elements in the list and it will hold the max number 
+
+Range function in for loop:
+---------------------------
+
+for a in range(starting_number, ending_number, step_number ): #step_number is nothing but difference between number to number
+    print(a) # 
+
+for a in range(1, 101):
+    print(a) #this will print the number from 1 to 100
+
+sum100 = 0
+for a in range(1, 101):
+    sum100 += A
+print(sum100) #this will print the sum of value of 1+2+3+4.......100
+
