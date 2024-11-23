@@ -1,0 +1,9 @@
+Randomization:
+    * a randomization is nothing but telling computer to pick something randomly from the pool of list or anything.
+    * Radom module is a perfect example of ludo game, when you click on the dise, it will generate a random number in between 1-7
+
+list:
+    * A pool of strings called as a list for exmple foo = ["a", "b", "c", "d"].
+    * Can also define list(list) like foo = [["a", "b", "c"], ["d", "e", "f"]]
+    * print(foo[0]) will print a b c | print(foo[1]) will print d e f | print(foo[0][1]) will print b | print(foo[1][1]) will print e
+    * print(foo[-1]) will print d 
