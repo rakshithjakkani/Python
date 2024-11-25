@@ -1,0 +1,21 @@
+Function Defining and function calling:
+=======================================
+
+syntax:-
+-------
+def my_function():
+    #do this
+    #then do this
+    #finally do this 
+my_function()
+
+While loops:
+============
+# while loops are used when you need run something multiple time until matches your condition
+
+syntax:
+-------
+while something_is_true:
+    #do this
+    #do that
+    
