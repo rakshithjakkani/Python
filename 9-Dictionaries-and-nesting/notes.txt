@@ -1,0 +1,61 @@
+Dictionaries:
+=============
+* Dictionaries are kind of Dictionaries book, where you get the meaning for a word. At the same time here we assign a value to a key
+* {"key": "value"} # this the syntax of the Dictionary
+
+creating Dictionary:
+--------------------
+a = {
+    "b": "rakshith",
+    "c": "rajesh",
+    "d": "dictionary"
+}
+
+Printing Dictionaries:
+----------------------
+print(a["a"]) #this will print sngle value of a key
+
+print(a["b"], a["d"]) # this will print both b and d values
+
+print(a) #this will print all the key value pairs
+
+
+adding an item to dictionary:
+----------------------------
+a["jakkani"] = "rakshith"
+
+removing items from dictionary:
+-------------------------------
+a = {}
+del a['c'] # to remove a single key-value pairs(item)
+
+dictionary in for loop:
+------------------------
+for i in a:
+    print(a[i])
+
+# the above for loop prints
+rakshith
+rajesh
+dictionary
+
+Nested lists and Dictionaries:
+===============================
+# example 
+
+rakshith_travel_log = {
+    "country_india": {
+        "number_of_visits": 2,
+        "cities_visited": ["mumbai", "bangalore", "hyderabad"]
+    },
+    "country_us": {
+        "number_of_visits": 3,
+        "cities_visited": ["chia", "chilo", "kua", ["a", "b", "c"]]
+    } 
+}
+
+print(rakshith_travel_log["country_us"]["cities_visited"][3][1]) # this will print "b"
+
+print(rakshith_travel_log["country_us"]["cities_visited"][3]) #this will print ["a", "b", "c"]
+
+print(rakshith_travel_log["country_us"]["cities_visited"]) # this will print ["chia", "chilo", "kua", ["a", "b", "c"]]
