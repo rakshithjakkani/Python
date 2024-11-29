@@ -1,6 +1,5 @@
 function inputes and parameter and argurments:
 ==============================================
-
 def greet(name): # we call this "name" which is defined in the function defining "parameter"
     print(f"hello {name}")
     print("how do you do?")
