@@ -7,4 +7,3 @@ def greet(name): # we call this "name" which is defined in the function defining
     print("isn't whether is nice ?")
 
 greet("rakshith") #rakshith called as a argument
-hi
