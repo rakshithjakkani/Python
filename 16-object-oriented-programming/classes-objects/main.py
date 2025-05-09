@@ -16,5 +16,4 @@ table = PrettyTable()
 table.add_column("Mumbai Places", ["merin drive", "zoho beach", "colaba stree"])
 table.add_column("Mumbai Restaurents", ["Colaba", "Veronika's", "Foodies"])
 table.align = 'l'
-table.sortby = "Mumbai Places"
-print(table)
+print(table.sortby)
